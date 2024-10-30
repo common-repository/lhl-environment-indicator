@@ -1,0 +1,72 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /* https://colorcodes.io/gold-color-codes/harvest-gold-color-codes/ */
+
+
+/* PILL indicator */
+.lhl_env_pill #wpadminbar{
+   padding-left: 47px;
+   /* width: calc(100% - 47px); */
+   box-sizing: border-box;
+}
+
+.lhl_env_pill #wpadminbar::before{
+   width: 32px;
+   height: 26px;
+   position: absolute;
+   border-radius: 10px;
+   color: #f0f0f1;
+   padding-left: 10px;
+   left: 5px;
+   top: 50%;
+   padding-top: 0;
+   margin-top: -13px;
+   font-size: 11px;
+   box-sizing: unset;
+}
+
+/* LOC */
+.lhl_loc #wpadminbar{
+   background: #009B77;   
+}
+.lhl_loc #wpadminbar::before {
+   content: "LOC";
+   background: #015441;
+}
+
+/* DEV */
+.lhl_dev #wpadminbar{
+   background: #257825;
+}
+.lhl_dev #wpadminbar::before {
+   content: "DEV";
+   background: #205c20;
+}
+
+/* STG */
+.lhl_stg #wpadminbar{
+   background: #da9100;
+}
+.lhl_stg #wpadminbar::before {
+   content: "STG";
+   background: #a66e00;
+}
+/* PRD */
+.lhl_prd #wpadminbar{
+   background: #8b0000;
+}
+.lhl_prd #wpadminbar::before {
+   content: "PRD";
+   background: #6b0101;
+}
+/* CUS */
+.lhl_cus #wpadminbar{
+   background: #c59800;
+}
+.lhl_cus #wpadminbar::before {
+   content: "CUS";
+   background: #ac8500;
+}
